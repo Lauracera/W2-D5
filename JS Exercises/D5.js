@@ -77,8 +77,22 @@ const cars = [
 */
 
 //Da finire ---->
-// const justTrims = []
+const justTrims = []
 
+
+
+// cosnole.log(cars[0].trims)      
+// cosnole.log(cars[1].trims)      
+// cosnole.log(cars[2].trims)  
+
+for (let i = 0 ; i < cars.legth ; i++) {
+  console.log(cars[i].trims[0]) 
+  justTrims.push(cars[i].trims[0])
+}
+console.log(justTrims)
+
+
+//No
 // for (i = 0 ; i < cars.legth ; i++) {
 //   justTrims.push[i].trims
 // }
