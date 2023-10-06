@@ -55,7 +55,10 @@ const cars = [
   },
 ]
 
-
+//Da finire
+let licensePlate = "ciao"
+cars.push(licensePlate)
+console.log(cars)
 
 
 /* ESERCIZIO 6
@@ -64,8 +67,8 @@ const cars = [
 */
 
 //Da finire
-// cars.trims.pop();
-// console.log(cars);
+cars.trims.pop();
+console.log(cars);
 
 
 
@@ -111,10 +114,6 @@ while (i <= 13){
   console.log(numericArray[i])
   i++
 }
-
-
-
-
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
